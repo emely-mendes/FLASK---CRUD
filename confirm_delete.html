@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmar Exclusão</title>
+</head>
+<body>
+    <h2>Tem certeza que deseja excluir sua conta, {{ usuario['nome'] }}?</h2>
+    <p>Essa ação não poderá ser desfeita.</p>
+
+    <form method="post">
+        <button type="submit">Sim, excluir minha conta</button>
+        <a href="/">Cancelar</a>
+    </form>
+</body>
+</html>

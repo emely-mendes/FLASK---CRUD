@@ -1,0 +1,55 @@
+/* Fundo geral */
+body {
+    background: linear-gradient(135deg, #6a1b9a, #8e24aa); /* roxo escuro para claro */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Cartões (login, cadastro, etc.) */
+.card {
+    background-color: #f3e5f5; /* roxo bem claro */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    color: #4a148c; /* texto roxo escuro */
+}
+
+/* Títulos */
+h2, h3, h4 {
+    color: #4a148c; /* roxo escuro */
+    font-weight: bold;
+}
+
+/* Botões principais */
+.btn-primary {
+    background-color: #6a1b9a; /* roxo escuro */
+    border-color: #4a148c;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #8e24aa; /* roxo mais claro */
+    border-color: #6a1b9a;
+}
+
+/* Links */
+a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8e24aa;
+    text-decoration: underline;
+}
+
+/* Inputs */
+input.form-control {
+    border: 2px solid #8e24aa;
+    border-radius: 8px;
+}
+
+input.form-control:focus {
+    border-color: #6a1b9a;
+    box-shadow: 0 0 6px rgba(106, 27, 154, 0.6);
+}
